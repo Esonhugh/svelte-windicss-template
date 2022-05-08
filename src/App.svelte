@@ -6,7 +6,7 @@
 		if(number % 2===1){
 			now_name = name;
 		}else {
-			now_name = 'Svelte';
+			now_name = 'WindiCss';
 		}
 		number = number + 1;
 	}
