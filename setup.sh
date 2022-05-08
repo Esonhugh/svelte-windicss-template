@@ -11,4 +11,4 @@ function build_by_action () {
   git clone ${Project_url} --branch app
 }
 
-build_by_action
+build_by_local
