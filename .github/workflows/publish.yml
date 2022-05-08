@@ -17,8 +17,6 @@ jobs:
       - name: Build Apps
         run: bash setup.sh
 
-      - name: Tree Project
-        run: apt install -y tree && tree . -L 3
 
       - name: Push on another branch
         uses: s0/git-publish-subdir-action@develop
